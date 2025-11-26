@@ -35,7 +35,7 @@ tableBody.appendChild(exampleRow);
 
 // ITERATION 1 - Display 3 contacts
 // Get the first 3 contacts from the 'contacts' array.
-const threeContacts = contacts.splice(0, contacts.length);
+const threeContacts = contacts.splice(0, 3);
 threeContacts.forEach((oneCeleb) => {
   const exampleRow = document.createElement("tr");
   exampleRow.innerHTML = `
